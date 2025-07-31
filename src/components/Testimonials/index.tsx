@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Reddit User",
+    designation: "Infrastructure Contractor",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "This technology would save hundreds of hours a year if you could capture asphalt cracks from a drone flight. We currently send out interns to measure the cracks manually, which costs us considerable labor hours.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Dennis Demeyer",
+    designation: "InfraScan Founder",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Accuracy vs. precision, what matters the most? Our AI-powered platform delivers both, enabling contractors and government agencies to make data-driven decisions with confidence.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Industry Expert",
+    designation: "Civil Engineering Professional",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "InfraScan's digital twin technology and BIM-compatible workflows represent the future of infrastructure inspection. The ability to assess structural stress and predict risks before they escalate is game-changing.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Industry Professionals Say"
+          paragraph="Early feedback from contractors, engineers, and infrastructure professionals highlights the transformative potential of AI-powered inspection technology."
           center
         />
 
@@ -85,8 +85,8 @@ const Testimonials = () => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1e3a8a" />
+              <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"
@@ -96,8 +96,8 @@ const Testimonials = () => {
               y2="675.565"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1e3a8a" />
+              <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -137,8 +137,8 @@ const Testimonials = () => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#1e3a8a" stopOpacity="0" />
+              <stop offset="1" stopColor="#1e3a8a" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -148,8 +148,8 @@ const Testimonials = () => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#1e3a8a" stopOpacity="0" />
+              <stop offset="1" stopColor="#1e3a8a" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -159,8 +159,8 @@ const Testimonials = () => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#1e3a8a" stopOpacity="0" />
+              <stop offset="1" stopColor="#1e3a8a" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -170,8 +170,8 @@ const Testimonials = () => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#1e3a8a" stopOpacity="0" />
+              <stop offset="1" stopColor="#1e3a8a" />
             </linearGradient>
           </defs>
         </svg>

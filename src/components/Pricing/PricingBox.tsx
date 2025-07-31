@@ -24,7 +24,7 @@ const PricingBox = (props: {
         <p className="text-body-color mb-7 text-base">{subtitle}</p>
         <div className="border-body-color/10 mb-8 border-b pb-8 dark:border-white/10">
           <button className="bg-primary/80 hover:shadow-signUp flex w-full items-center justify-center rounded-xs p-3 text-base font-semibold text-white transition duration-300 ease-in-out">
-            Start Free Trial
+            Join Waitlist
           </button>
         </div>
         <div>{children}</div>
@@ -55,8 +55,8 @@ const PricingBox = (props: {
                 y2="83.2919"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#1e3a8a" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_70:153"
@@ -66,8 +66,8 @@ const PricingBox = (props: {
                 y2="103.645"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#1e3a8a" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>

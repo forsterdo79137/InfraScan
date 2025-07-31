@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Early Access Pricing"
+          paragraph="Join the waitlist for exclusive early access to InfraScan. Choose the plan that best fits your infrastructure inspection needs."
           center
           width="665px"
         />
@@ -59,43 +59,43 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="Starter"
+            price={isMonthly ? "149" : "990"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Perfect for small contractors and government agencies getting started with AI-powered inspections."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
+            <OfferList text="AI Crack Detection" status="active" />
+            <OfferList text="Digital Twin Generation" status="active" />
+            <OfferList text="Basic Reporting" status="active" />
             <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="BIM Integration" status="inactive" />
+            <OfferList text="Photogrammetry" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            packageName="Professional"
+            price={isMonthly ? "449" : "2990"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Advanced features for growing teams and larger infrastructure projects."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="AI Crack Detection" status="active" />
+            <OfferList text="Digital Twin Generation" status="active" />
+            <OfferList text="Advanced Reporting" status="active" />
+            <OfferList text="BIM Integration" status="active" />
+            <OfferList text="Priority Support" status="active" />
+            <OfferList text="Photogrammetry" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Enterprise"
+            price={isMonthly ? "899" : "5990"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Complete solution for large organizations with complex infrastructure needs."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="AI Crack Detection" status="active" />
+            <OfferList text="Digital Twin Generation" status="active" />
+            <OfferList text="Advanced Photogrammetry" status="active" />
+            <OfferList text="BIM Integration" status="active" />
+            <OfferList text="Custom Workflows" status="active" />
+            <OfferList text="Dedicated Support" status="active" />
           </PricingBox>
         </div>
       </div>
@@ -137,8 +137,8 @@ const Pricing = () => {
               y2="1131.65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1e3a8a" />
+              <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_93:235"
@@ -148,8 +148,8 @@ const Pricing = () => {
               y2="915.952"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#1e3a8a" />
+              <stop offset="1" stopColor="#1e3a8a" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>

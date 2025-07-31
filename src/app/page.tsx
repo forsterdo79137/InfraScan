@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "InfraScan - AI-Powered Infrastructure Inspection Software",
+  description: "InfraScan is launching an AI-powered inspection platform that enables contractors and government agencies to quickly identify, detect, and measure structural cracks using photogrammetry and digital twins.",
   // other metadata
 };
 
@@ -24,12 +24,9 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
       <Pricing />
-      <Blog />
       <Contact />
     </>
   );
