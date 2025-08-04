@@ -50,7 +50,7 @@ export default function Video() {
         <div className="container">
           <SectionTitle
             title="Three Steps to Infrastructure Analysis"
-            paragraph="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+            paragraph="Transform your infrastructure inspection workflow with AI-powered crack detection. From image upload to detailed reporting, our platform streamlines the entire process in just three simple steps."
             center
             mb="80px"
           />

@@ -224,6 +224,20 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               © 2024 InfraScan. Launching Q2 2026. Transforming infrastructure inspection with AI.
             </p>
+            <div className="mt-4 flex justify-center space-x-6">
+              <Link
+                href="/privacy-policy"
+                className="text-sm text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/legal-notice"
+                className="text-sm text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+              >
+                Legal Notice
+              </Link>
+            </div>
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
